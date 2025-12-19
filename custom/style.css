@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+body{
+    margin: 0;
+}
+.hover-container{
+    position: relative;
+}
+
+.hover-img,
+.hover-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600px;
+    height: auto;
+    display: block;
+}
+
+.hover-video{
+    display: none;/* 初期状態では非表示 */
+}
